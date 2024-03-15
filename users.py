@@ -1,4 +1,4 @@
-username = "omerr_gny"
-password = "omer123456"
+username = "Username"
+password = "Password"
 
-search = "'Ömer Faruk Günay'"
+search = "'Search'"

@@ -43,7 +43,7 @@ class Twitter:
         self.browser.get("https://twitter.com/explore")
         time.sleep(5)
     
-    def clickOmerGunay(self):
+    def clickProfil(self):
         time.sleep(3)
         gunayInput = self.browser.find_element(By.TAG_NAME,"input")
         
@@ -71,6 +71,6 @@ app.signInPassword()
 
 app.clickExplore()
 
-app.clickOmerGunay()
+app.clickProfil()
 
 app.countDiv()
